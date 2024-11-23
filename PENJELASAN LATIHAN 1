@@ -1,0 +1,41 @@
+1. Inisialisasi Dictionary Awalnya, program mendefinisikan sebuah dictionary 
+bernama daftar_kontak yang berisi tiga pasangan nama kontak sebagai kunci dan nomor telepon sebagai nilainya. Kontak awalnya meliputi:
+Ari: "08123456789"
+Dina: "08234567890"
+Budi: "08345678901"
+
+2.Menampilkan Kontak Ari Program menggunakan metode get() untuk mengambil nilai 
+dari kunci "Ari". Metode ini memastikan bahwa jika kunci tidak ditemukan, program tidak akan menghasilkan error. Hasilnya ditampilkan menggunakan fungsi print().
+
+3. Menambahkan Kontak Baru Kontak baru untuk "Riko" ditambahkan ke dalam daftar_kontak dengan sintaks sederhana:
+# daftar_kontak["Riko"] = "087654544"
+Pernyataan ini menambahkan pasangan kunci "Riko" dengan nilai "087654544". Setelah itu, pesan notifikasi ditampilkan untuk memberi tahu bahwa kontak telah ditambahkan.
+
+4. Memperbarui Kontak Dina Untuk memperbarui nomor kontak yang sudah ada, nilai dari kunci "Dina" diperbarui dengan nilai baru:
+# daftar_kontak["Dina"] = "088999776"
+Program lalu mencetak pesan bahwa nomor Dina telah diperbarui.
+
+5. Menampilkan Semua Nama Program menggunakan metode keys() dari dictionary untuk 
+mengambil semua kunci (nama kontak).Metode ini menghasilkan sebuah objek view, 
+yang kemudian diubah menjadi daftar menggunakan fungsi list().
+
+6. Menampilkan Semua Nomor Untuk menampilkan seluruh nomor telepon, 
+metode values() digunakan untuk mengambil nilai dari dictionary, 
+dan hasilnya juga diubah menjadi daftar menggunakan list().
+
+7. Menampilkan Semua Nama dan Nomor Untuk menampilkan seluruh daftar kontak dalam bentuk pasangan nama dan nomor, 
+program menggunakan perulangan for dengan metode items(). Metode ini mengembalikan pasangan kunci dan nilai sebagai tuple, 
+yang kemudian digunakan untuk mencetak daftar kontak satu per satu.
+
+8. Menghapus Kontak Dina Program memeriksa apakah kunci "Dina" 
+ada di daftar_kontak dengan menggunakan pernyataan if "Dina" in daftar_kontak. Jika ada, 
+pasangan kunci-nilai tersebut dihapus menggunakan perintah del. 
+Setelah penghapusan, pesan konfirmasi ditampilkan. Jika kunci tidak ditemukan, program mencetak pesan bahwa kontak Dina tidak ditemukan.
+
+9. Menampilkan Daftar Kontak Setelah Penghapusan Setelah kontak Dina dihapus, 
+program kembali menampilkan daftar kontak yang tersisa dengan cara yang sama seperti sebelumnya, menggunakan perulangan for.
+
+Tujuan Program
+Program ini bertujuan untuk memberikan ilustrasi bagaimana mengelola data kontak secara sederhana menggunakan Python. 
+Ini mencakup operasi dasar seperti membaca data, menambah data baru, memperbarui data, menghapus data, dan menampilkan isi dari dictionary. 
+Program ini mudah dipahami dan dapat dikembangkan lebih lanjut, misalnya dengan menambahkan fitur pencarian atau validasi data.

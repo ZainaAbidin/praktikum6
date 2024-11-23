@@ -40,3 +40,10 @@ program akan meminta mereka untuk mencoba lagi.
 Ini memastikan semua operasi dapat dilakukan secara berulang tanpa perlu menjalankan ulang 
 program. Dengan sistem seperti ini, program menjadi alat yang efisien untuk mengelola data 
 mahasiswa.
+
+# Flowchart Praktikum
+
+
+
+![Cuplikan layar 2024-11-23 215111](https://github.com/user-attachments/assets/1b869bcc-363f-4773-b9d6-deda9858695b)
+

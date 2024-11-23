@@ -8,11 +8,11 @@ Budi: "08345678901"
 dari kunci "Ari". Metode ini memastikan bahwa jika kunci tidak ditemukan, program tidak akan menghasilkan error. Hasilnya ditampilkan menggunakan fungsi print().
 
 3. Menambahkan Kontak Baru Kontak baru untuk "Riko" ditambahkan ke dalam daftar_kontak dengan sintaks sederhana:
-# daftar_kontak["Riko"] = "087654544"
+daftar_kontak["Riko"] = "087654544"
 Pernyataan ini menambahkan pasangan kunci "Riko" dengan nilai "087654544". Setelah itu, pesan notifikasi ditampilkan untuk memberi tahu bahwa kontak telah ditambahkan.
 
 4. Memperbarui Kontak Dina Untuk memperbarui nomor kontak yang sudah ada, nilai dari kunci "Dina" diperbarui dengan nilai baru:
-# daftar_kontak["Dina"] = "088999776"
+daftar_kontak["Dina"] = "088999776"
 Program lalu mencetak pesan bahwa nomor Dina telah diperbarui.
 
 5. Menampilkan Semua Nama Program menggunakan metode keys() dari dictionary untuk 
